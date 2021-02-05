@@ -123,7 +123,7 @@ let createImagesSet = (dayPart) => {
   const result = [];
   const images = createRandomImagesSet();
   for (let i = 0; i < 6; i++) {
-    result.push(`./assets/images/${dayPart}/${images[i]}`);
+    result.push(`images/${dayPart}/${images[i]}`);
   }
   return result;
 };
